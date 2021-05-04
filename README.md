@@ -30,3 +30,4 @@ Aguarde o conteiner com chrome ser construido e depois de feito execute o seguin
 ```sh
 python crawler.py
 ```
+Ao fim da execução será criado um arquivo chamado proxies.json na pasta raiz do projeto
