@@ -24,8 +24,9 @@ $ pip install -r requirements.txt
 Vamos executar os comandos abaixo partindo que esteja no diretório raiz onde fez o clone do projeto.
 ```sh
 docker run -d -p 4444:4444 selenium/standalone-chrome
-python crawler.py
-
 ```
+Aguarde o conteiner com chrome ser construido e depois de feito execute o seguinte comando.
 
-
+```sh
+python crawler.py
+```
